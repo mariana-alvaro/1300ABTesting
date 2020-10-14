@@ -2,7 +2,9 @@
 html body {
 	background-color: #ecedd5;
 }
-
+html body2 {
+	background-color: pink;
+}
 header {
 	padding-left: 40px;
 	padding-top: 20px;

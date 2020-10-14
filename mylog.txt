@@ -1,0 +1,144 @@
+2020-10-14T13:45:17.694874+00:00 app[api]: Release v1 created by user mariana_alvaro@brown.edu
+2020-10-14T13:45:17.694874+00:00 app[api]: Initial release by user mariana_alvaro@brown.edu
+2020-10-14T13:45:17.779074+00:00 app[api]: Enable Logplex by user mariana_alvaro@brown.edu
+2020-10-14T13:45:17.779074+00:00 app[api]: Release v2 created by user mariana_alvaro@brown.edu
+2020-10-14T13:45:47.000000+00:00 app[api]: Build started by user mariana_alvaro@brown.edu
+2020-10-14T13:46:22.799454+00:00 app[api]: Deploy 39836852 by user mariana_alvaro@brown.edu
+2020-10-14T13:46:22.799454+00:00 app[api]: Release v3 created by user mariana_alvaro@brown.edu
+2020-10-14T13:46:22.817876+00:00 app[api]: Scaled to web@1:Free by user mariana_alvaro@brown.edu
+2020-10-14T13:46:27.106684+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-14T13:46:29.761827+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:46:29.769980+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-14T13:46:29.769993+00:00 app[web.1]: * Environment: production
+2020-10-14T13:46:29.770001+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-14T13:46:29.770049+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T13:46:29.770085+00:00 app[web.1]: * Debug mode: on
+2020-10-14T13:46:29.777910+00:00 app[web.1]: * Running on http://0.0.0.0:43621/ (Press CTRL+C to quit)
+2020-10-14T13:46:29.778723+00:00 app[web.1]: * Restarting with stat
+2020-10-14T13:46:30.200700+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:46:30.220972+00:00 app[web.1]: * Debugger is active!
+2020-10-14T13:46:30.223145+00:00 app[web.1]: * Debugger PIN: 975-975-757
+2020-10-14T13:46:30.250497+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T13:46:32.000000+00:00 app[api]: Build succeeded
+2020-10-14T13:46:36.187924+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.189133+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=f7d443df-8095-4fa0-808d-a9f5b0dd0a9f fwd="71.117.132.74" dyno=web.1 connect=0ms service=15ms status=200 bytes=8885 protocol=https
+2020-10-14T13:46:36.312396+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:36] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.313491+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=fathomless-wildwood-44010.herokuapp.com request_id=e0b5b333-65d2-41eb-9558-5100b016f067 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=1117 protocol=https
+2020-10-14T13:46:36.339367+00:00 app[web.1]: 10.47.227.158 - - [14/Oct/2020 13:46:36] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.347929+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:36] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.371916+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=fathomless-wildwood-44010.herokuapp.com request_id=a007dc6c-e6d1-4efc-8e6c-ebd579ba5370 fwd="71.117.132.74" dyno=web.1 connect=0ms service=34ms status=200 bytes=243856 protocol=https
+2020-10-14T13:46:36.400748+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=fathomless-wildwood-44010.herokuapp.com request_id=98505061-ae30-4503-b387-f093d28db7b8 fwd="71.117.132.74" dyno=web.1 connect=0ms service=54ms status=200 bytes=618300 protocol=https
+2020-10-14T13:46:36.409197+00:00 app[web.1]: 10.51.235.186 - - [14/Oct/2020 13:46:36] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.412712+00:00 app[web.1]: 10.45.226.51 - - [14/Oct/2020 13:46:36] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.417349+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=fathomless-wildwood-44010.herokuapp.com request_id=963d74ff-84f8-44f6-9b84-2f348bead6c1 fwd="71.117.132.74" dyno=web.1 connect=2ms service=11ms status=200 bytes=160216 protocol=https
+2020-10-14T13:46:36.423136+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=fathomless-wildwood-44010.herokuapp.com request_id=ae391644-2a54-434c-9240-93c5c40b3230 fwd="71.117.132.74" dyno=web.1 connect=1ms service=17ms status=200 bytes=132444 protocol=https
+2020-10-14T13:46:36.659065+00:00 app[web.1]: AB_TESTING: A 1602683196616 0 0 vobthdlu
+2020-10-14T13:46:36.659823+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:46:36.665162+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=3ab7751a-b5d9-45aa-9c29-97d6661bf180 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:46:36.918653+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-14T13:46:36.919600+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fathomless-wildwood-44010.herokuapp.com request_id=b04fc3a7-13fd-49e7-a5e8-4abe13e211ce fwd="71.117.132.74" dyno=web.1 connect=1ms service=4ms status=404 bytes=394 protocol=https
+2020-10-14T13:46:52.675324+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:46:52.676528+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=6a76ba98-5263-4957-a9b8-e109ddf4a3e1 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:46:52.754173+00:00 app[web.1]: AB_TESTING: A 1602683212734 0 0 vobthdlu
+2020-10-14T13:46:52.755108+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:52] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:46:52.756138+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=95f45c16-5894-4384-b551-27a4d42732da fwd="71.117.132.74" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-14T13:46:54.736110+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:54] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:46:54.737323+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=20f557fc-f0c5-4417-a830-33f99ebcfd77 fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=8885 protocol=https
+2020-10-14T13:46:54.837405+00:00 app[web.1]: AB_TESTING: A 1602683214807 0 0 vobthdlu
+2020-10-14T13:46:54.838055+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:46:54.839359+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=ebbb4bff-c9c1-4215-b617-0a014860ad6c fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:46:58.902777+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:46:58.903721+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=22fd7775-a1c6-492d-b629-ae64ce1cef50 fwd="71.117.132.74" dyno=web.1 connect=1ms service=4ms status=200 bytes=8885 protocol=https
+2020-10-14T13:46:59.224803+00:00 app[web.1]: AB_TESTING: A 1602683219188 0 0 vobthdlu
+2020-10-14T13:46:59.225891+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:46:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:46:59.230503+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=c04ce85d-0dd9-4363-b318-1aeffb557881 fwd="71.117.132.74" dyno=web.1 connect=2ms service=7ms status=200 bytes=155 protocol=https
+2020-10-14T13:47:03.307941+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:47:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:47:03.309094+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=35b4c979-342e-45fe-b9ad-b0800904a97a fwd="71.117.132.74" dyno=web.1 connect=1ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:47:03.379928+00:00 app[web.1]: AB_TESTING: A 1602683223356 0 0 vobthdlu
+2020-10-14T13:47:03.380553+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:47:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:47:03.381773+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=c3ec4104-22b8-432d-89a3-c52493ab3875 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:47:04.689840+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:47:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:47:04.691179+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=804b2283-31b7-4e32-9746-bf923979986c fwd="71.117.132.74" dyno=web.1 connect=0ms service=8ms status=200 bytes=8921 protocol=https
+2020-10-14T13:47:04.791840+00:00 app[web.1]: AB_TESTING: B 1602683224740 0 0 vobthdlu
+2020-10-14T13:47:04.792522+00:00 app[web.1]: 10.63.70.171 - - [14/Oct/2020 13:47:04] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:47:04.793734+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=e69a5aba-5369-4a51-9064-a77c92e0b583 fwd="71.117.132.74" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:14.185244+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:48:14.187248+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=8d92bb61-7b4a-4a1b-b74c-1a0e9aeccb40 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:48:14.560400+00:00 app[web.1]: AB_TESTING: A 1602683294540 0 0 vobthdlu
+2020-10-14T13:48:14.561042+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:14] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:14.562639+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=b9536336-9b88-4232-ab63-9c513af934fe fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:18.667596+00:00 app[web.1]: AB_TESTING: A 1602683294540 1602683298642 mp1 vobthdlu
+2020-10-14T13:48:18.668348+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:18] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:18.669972+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=e83f5b3b-3601-44d4-b4bd-c4a1bbf74c91 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:21.681857+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:21] "[37mGET /checkout?version=A&mp1=1&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:21.688725+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=1&mp2=0&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=b3219d3a-2c53-4176-b2af-5374d2ad274e fwd="71.117.132.74" dyno=web.1 connect=0ms service=11ms status=200 bytes=5236 protocol=https
+2020-10-14T13:48:21.895078+00:00 app[web.1]: AB_TESTING: C 1602683301865 0 0 vobthdlu
+2020-10-14T13:48:21.896072+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:21.897814+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=5faf04d8-fdb3-450b-96da-a600a6c19ee2 fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:26.267303+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:26] "[37mGET /?version=A&mp1=1&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:26.269250+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=0&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=cf691c22-d841-4146-bb20-1be7a37e4346 fwd="71.117.132.74" dyno=web.1 connect=1ms service=4ms status=200 bytes=8885 protocol=https
+2020-10-14T13:48:26.382179+00:00 app[web.1]: AB_TESTING: A 1602683306338 0 0 vobthdlu
+2020-10-14T13:48:26.385474+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:26.387472+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=e722f11c-e8b0-40fe-b088-db661483e0cb fwd="71.117.132.74" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:30.927833+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:30] "[37mGET /?version=A&mp1=1&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:30.929782+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=0&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=af04ebc6-ac3a-47b6-9c97-7cdbe5f7657b fwd="71.117.132.74" dyno=web.1 connect=1ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:48:31.005004+00:00 app[web.1]: AB_TESTING: A 1602683310972 0 0 vobthdlu
+2020-10-14T13:48:31.005879+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:31.007574+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=16be6865-eb1c-476f-80e5-0206a3954752 fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:32.387821+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:32] "[37mGET /?version=A&mp1=1&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:32.389531+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=0&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=fc3870d9-1c78-4106-b842-c9771a0844d6 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:48:32.497449+00:00 app[web.1]: AB_TESTING: A 1602683312445 0 0 vobthdlu
+2020-10-14T13:48:32.498209+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:32] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:32.500074+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=22445f68-3993-468c-8362-973425ff3c6a fwd="71.117.132.74" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:33.877100+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:33] "[37mGET /?version=A&mp1=1&mp2=0&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:33.878913+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=1&mp2=0&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=fef43312-427a-4c49-afbe-2801138b108c fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=8885 protocol=https
+2020-10-14T13:48:33.964755+00:00 app[web.1]: AB_TESTING: A 1602683313936 0 0 vobthdlu
+2020-10-14T13:48:33.965602+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:33.967824+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=b20b0ff2-a340-495a-9a3f-14ba1f5d2402 fwd="71.117.132.74" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:38.514225+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:38] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:48:38.524986+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=e5dde798-40f1-4be4-abf3-c83ed9015b2a fwd="71.117.132.74" dyno=web.1 connect=0ms service=19ms status=200 bytes=8921 protocol=https
+2020-10-14T13:48:38.779864+00:00 app[web.1]: AB_TESTING: B 1602683318750 0 0 vobthdlu
+2020-10-14T13:48:38.780745+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:38.783743+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=285c77d5-bdea-4630-a3a6-5d3e004d700f fwd="71.117.132.74" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:42.428190+00:00 app[web.1]: AB_TESTING: B 1602683318750 1602683322407 mp2 vobthdlu
+2020-10-14T13:48:42.429157+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:42.431518+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=8fa905b3-5bdd-4a63-8d2d-ce0e4cc82ee6 fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:44.620256+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:44] "[37mGET /checkout?version=B&mp1=0&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:44.622213+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=0&mp2=1&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=eec4456c-309f-4fde-9fa2-2d504e4300db fwd="71.117.132.74" dyno=web.1 connect=0ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-14T13:48:44.739026+00:00 app[web.1]: AB_TESTING: C 1602683324696 0 0 vobthdlu
+2020-10-14T13:48:44.739689+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:44.741319+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=c4c9492d-ee9f-4041-97bd-cc79b41650d8 fwd="71.117.132.74" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:48:47.121497+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:47] "[37mGET /?version=B&mp1=0&mp2=1&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-14T13:48:47.124891+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=0&mp2=1&mp3=0&mp4=0" host=fathomless-wildwood-44010.herokuapp.com request_id=212db628-928b-4c52-9a78-344649277ed1 fwd="71.117.132.74" dyno=web.1 connect=0ms service=6ms status=200 bytes=8921 protocol=https
+2020-10-14T13:48:47.207684+00:00 app[web.1]: AB_TESTING: B 1602683327174 0 0 vobthdlu
+2020-10-14T13:48:47.208338+00:00 app[web.1]: 10.35.234.123 - - [14/Oct/2020 13:48:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:48:47.209976+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=11acb0b2-a3c4-4c30-b842-d3a184796fcb fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:55:37.463870+00:00 app[web.1]: 10.31.72.133 - - [14/Oct/2020 13:55:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:55:37.464195+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=ab38426d-5839-4344-9000-ae5f3773ee75 fwd="71.117.132.74" dyno=web.1 connect=0ms service=3ms status=200 bytes=8885 protocol=https
+2020-10-14T13:55:37.576033+00:00 app[web.1]: AB_TESTING: A 1602683737540 0 0 vobthdlu
+2020-10-14T13:55:37.576776+00:00 app[web.1]: 10.31.72.133 - - [14/Oct/2020 13:55:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:55:37.576940+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=a381b315-1f9d-4995-8bd6-090f17305d84 fwd="71.117.132.74" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T14:28:32.248215+00:00 heroku[web.1]: Idling
+2020-10-14T14:28:32.255661+00:00 heroku[web.1]: State changed from up to down
+2020-10-14T14:28:33.164710+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T14:28:33.273479+00:00 heroku[web.1]: Process exited with status 0
+2020-10-14T14:44:05.728383+00:00 heroku[web.1]: Unidling
+2020-10-14T14:44:05.764985+00:00 heroku[web.1]: State changed from down to starting
+2020-10-14T14:44:11.227651+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-14T14:44:14.616991+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T14:44:14.627711+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-14T14:44:14.627806+00:00 app[web.1]: * Environment: production
+2020-10-14T14:44:14.627976+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-14T14:44:14.628124+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T14:44:14.628205+00:00 app[web.1]: * Debug mode: on
+2020-10-14T14:44:14.642419+00:00 app[web.1]: * Running on http://0.0.0.0:32697/ (Press CTRL+C to quit)
+2020-10-14T14:44:14.643988+00:00 app[web.1]: * Restarting with stat
+2020-10-14T14:44:15.217147+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T14:44:15.231840+00:00 app[web.1]: * Debugger is active!
+2020-10-14T14:44:15.233888+00:00 app[web.1]: * Debugger PIN: 133-658-369
+2020-10-14T14:44:15.771696+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T14:44:17.843547+00:00 app[web.1]: 10.37.196.48 - - [14/Oct/2020 14:44:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T14:44:17.849769+00:00 heroku[router]: at=info method=GET path="/" host=fathomless-wildwood-44010.herokuapp.com request_id=273a65ac-6b08-4e0a-b5c7-c89b81c98577 fwd="71.117.132.74" dyno=web.1 connect=1ms service=23ms status=200 bytes=8885 protocol=https
+2020-10-14T14:44:18.124375+00:00 app[web.1]: AB_TESTING: A 1602686658084 0 0 vobthdlu
+2020-10-14T14:44:18.125283+00:00 app[web.1]: 10.37.196.48 - - [14/Oct/2020 14:44:18] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T14:44:18.127785+00:00 heroku[router]: at=info method=POST path="/data" host=fathomless-wildwood-44010.herokuapp.com request_id=6b4379ae-e504-482f-9cf2-c71d07dfbd41 fwd="71.117.132.74" dyno=web.1 connect=1ms service=16ms status=200 bytes=155 protocol=https
