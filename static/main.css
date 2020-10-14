@@ -7,8 +7,9 @@ header {
 	padding-left: 40px;
 	padding-top: 20px;
 }
-h2{
+h4{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
 }
 .vendor-wrapper {
 	justify-content: left;
